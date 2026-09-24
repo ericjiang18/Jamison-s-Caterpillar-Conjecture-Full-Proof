@@ -1,0 +1,10 @@
+{
+  "byte_identical_to_supplied": {
+    "broom_unbounded_0.json": true,
+    "broom_unbounded_1.json": true,
+    "broom_boundaries.json": true,
+    "star_certificates.json": true,
+    "cherry_certificates.json": true
+  },
+  "all_matched": true
+}

@@ -1,0 +1,63 @@
+{
+  "title": "Partial Lean development of the Jamison proof candidate",
+  "lean_compilation": {
+    "status": "NOT RUN",
+    "reason": "Lean/Lake/Elan absent; toolchain download blocked by runtime DNS/network failures",
+    "source_error_count": null,
+    "warnings": null
+  },
+  "intended_lean_version": "leanprover/lean4:v4.19.0",
+  "intended_mathlib_git_tag": "v4.19.0",
+  "version_compatibility_tested": false,
+  "full_graph_theorem_proved_in_lean": false,
+  "main_conjectures_are_proposition_definitions_only": true,
+  "explicit_unproved_obligations": [
+    "Jamison.Graph.StrictImprovement",
+    "Jamison.Broom.CertificateObligation"
+  ],
+  "static_text_scan": {
+    "check": "Source text scan ONLY; not Lean compilation or proof verification",
+    "files": [
+      "Jamison.lean",
+      "Audit.lean",
+      "lakefile.lean"
+    ],
+    "forbidden_tokens": [],
+    "delimiter_errors": [],
+    "passed": true
+  },
+  "python_sanity_only": {
+    "status": "passed",
+    "scope": "Mirrored Python arithmetic only; NOT Lean verification",
+    "symbolic_identities": [
+      "host_square",
+      "host_propagation_numerator",
+      "shortening_correction",
+      "concentration_score",
+      "square_certificate",
+      "representative_certificate"
+    ],
+    "host_rational_samples": 1000,
+    "propagation_rational_samples": 1000,
+    "packet_margin_samples": 2000,
+    "recursive_expression_samples": 500,
+    "example_cross_scores": [
+      1542748,
+      6755700
+    ]
+  },
+  "source_provenance": {
+    "jamison_all_orders_proof.md": "10978cce155d4de8ad0e97ee477afd5cd193f20740d10f84460bd6e6a7a786f0",
+    "jamison_all_orders_with_references.tex": "7d6318d6aee275f4dd3f0d24f478949aa60da126aa90bb4c6a54322f3fd2cd52"
+  },
+  "delivered_source_hashes": {
+    "Jamison.lean": "c6790430e2f0acbc98f4743c4aefed408c2786f1546b269c8fe54376ab7e198c",
+    "Audit.lean": "5f4bb02ffe78953987d8713954f8f13a070df65ce96ec8da01c51e64d378ffbb",
+    "lakefile.lean": "3321d26160c0172070a9be63ad90519fa367e3fa1a8ce280d342b7baf7f69e02",
+    "python_sanity.py": "6c21364f71331e10d2289250228204197b22487a0fa3878c8ee69a606ba7b961",
+    "static_scan.py": "6fa1e3f970b13c1b5dfcad0fb220663bbb96c177bbf7c9050cc217beaeb1e92a",
+    "check.sh": "7c570b9bb79434ac809a43b6ce8bc6b5f360ae4997b3a21c8285efaec00fb3d9"
+  },
+  "source_lines": 823,
+  "caution": "A successful future build would verify only supplied declarations, not fill the missing structural proof or all certificates."
+}

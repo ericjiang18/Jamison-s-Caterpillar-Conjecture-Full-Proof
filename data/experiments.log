@@ -1,0 +1,17 @@
+completed order 4 trees 2 max 23/11 cases {'trees': 2, 'caterpillar': 2}
+completed order 5 trees 3 max 13/5 cases {'trees': 3, 'caterpillar': 3}
+completed order 6 trees 6 max 117/37 cases {'trees': 6, 'caterpillar': 6}
+completed order 7 trees 11 max 131/35 cases {'trees': 11, 'caterpillar': 10, 'leaf_degree_two': 1}
+completed order 8 trees 23 max 583/135 cases {'trees': 23, 'caterpillar': 20, 'leaf_degree_two': 3}
+completed order 9 trees 47 max 779/159 cases {'trees': 47, 'caterpillar': 36, 'leaf_degree_two': 11}
+completed order 10 trees 106 max 205/37 cases {'trees': 106, 'caterpillar': 72, 'leaf_degree_two': 33, 'cherry': 1}
+completed order 11 trees 235 max 2025/329 cases {'trees': 235, 'caterpillar': 136, 'leaf_degree_two': 96, 'cherry': 3}
+completed order 12 trees 551 max 4236/619 cases {'trees': 551, 'caterpillar': 272, 'leaf_degree_two': 269, 'cherry': 10}
+completed order 13 trees 1301 max 2513/335 cases {'trees': 1301, 'caterpillar': 528, 'leaf_degree_two': 742, 'cherry': 27, 'broom': 3, 'star': 1}
+completed order 14 trees 3159 max 10243/1247 cases {'trees': 3159, 'caterpillar': 1056, 'leaf_degree_two': 2015, 'cherry': 72, 'broom': 12, 'star': 4}
+completed order 15 trees 7741 max 2383/267 cases {'trees': 7741, 'caterpillar': 2080, 'leaf_degree_two': 5423, 'cherry': 178, 'broom': 43, 'star': 17}
+completed order 16 trees 19320 max 23713/2453 cases {'trees': 19320, 'caterpillar': 4160, 'leaf_degree_two': 14524, 'cherry': 444, 'broom': 135, 'star': 54, 'internal_packet': 3}
+completed order 17 trees 48629 max 26596/2555 cases {'trees': 48629, 'caterpillar': 8256, 'leaf_degree_two': 38727, 'cherry': 1073, 'broom': 392, 'star': 164, 'internal_packet': 17}
+example concentration source 3821 37861 competitor 3249 32597 score 1542748
+example insertion source 5943 69363 competitor 5218 62038 score 6755700
+TOTAL {'trees': 81134, 'caterpillar': 16637, 'leaf_degree_two': 61844, 'cherry': 1808, 'broom': 585, 'star': 240, 'internal_packet': 20} seconds 25.327

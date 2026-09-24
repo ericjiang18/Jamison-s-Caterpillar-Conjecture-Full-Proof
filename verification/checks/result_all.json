@@ -1,0 +1,52 @@
+{
+  "part": "all",
+  "status": "passed",
+  "broom_unbounded_0": {
+    "group_certificates": 288,
+    "coefficient_lower_bounds": 1728
+  },
+  "broom_unbounded_1": {
+    "group_certificates": 288,
+    "coefficient_lower_bounds": 1728
+  },
+  "broom_boundaries": {
+    "group_certificates": 1728
+  },
+  "stars": {
+    "unbounded_corner_coefficients": 576,
+    "k3_corner_coefficients": 288
+  },
+  "cherry": {
+    "symbolic_certificates": 6,
+    "supporting_checks": {
+      "rooted_shapes_with_count_at_most_50": 8533,
+      "branch_shapes_with_count_from_4_through_20": 242,
+      "cherry_configurations_checked": 117612,
+      "counterexample_means": [
+        "943/127",
+        "4849/661",
+        "2783/377",
+        "8715/1163"
+      ]
+    }
+  },
+  "concentration_identities": {
+    "concentration_score": "ell*(r - 1)*(-M*(z - 1) + k*z/2 + (S - z + 1)*(-a*r/(2*r - 2) + d - ell/2 - 1/2))",
+    "epsilon": "(M*(ell + r - 2) + (ell - 2)*(a + ell - 1)/2)/(ell + r*(S + 1) - 2)",
+    "ell_ge_2_margin": "(3*S+5*z+11)/16",
+    "ell_eq_1_margin": "(17*S+13*z+47)/60",
+    "identities_passed": 5
+  },
+  "finite_tests": {
+    "seed": 20260920,
+    "random_rounds": 30000,
+    "concentration_cases": 18351,
+    "random_broom_cases": 9220,
+    "random_star_cases_k_ge_3": 2207,
+    "exact_integer_identity_checks": 2000,
+    "systematic_broom_cases": 1440,
+    "largest_terminal_packet": 1024,
+    "largest_bare_prefix": 1000
+  },
+  "elapsed_seconds": 213.14
+}
