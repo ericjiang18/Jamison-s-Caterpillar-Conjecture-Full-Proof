@@ -4,10 +4,7 @@
 
 ## Questions
 
-For every integer $n\ge1$, every tree on $n$ vertices maximizing the mean order
-of its nonempty connected induced vertex subsets is a caterpillar.
-Consequently, for every $n$, a caterpillar attains the maximum mean subtree
-order among all $n$-vertex trees.
+For every integer n ≥ 1, every tree on n vertices maximizing the mean order of its nonempty connected induced vertex subsets is a caterpillar. Consequently, for every n, a caterpillar attains the maximum mean subtree order among all n-vertex trees. 
 
 ## Mathematical status
 
